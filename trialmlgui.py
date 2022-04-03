@@ -109,9 +109,7 @@ class MainWindow():
 
     
     def productButtonClicked(self):
-        #productWindow = Toplevel()
         obj = ProductMenuWindow(self, "Result", "300x300")
-        #productFenster = ProductMenuWindow(productWindow,)
 
     def on_cancel(self):
         print("Success")
